@@ -19,7 +19,7 @@
     "build": "vue-cli-service build --target lib --name vue-mapbox src/main.js",
     "serve": "vue-cli-service build --target lib --name vue-mapbox src/main.js --watch",
     "lint": "vue-cli-service lint",
-    "docs:serve": "vuepress dev docs_source",
+    "docs:serve": "vuepress dev docs_source --open --port=8090",
     "docs:build": "vuepress build docs_source"
   },
   "husky": {
